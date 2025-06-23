@@ -26,3 +26,30 @@ let someNumber =22
 let stringNumber =String(someNumber);
 console.log(stringNumber);                // 33
 console.log(typeof(stringNumber));     //string
+
+
+//-----------------------operation--------------------
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2%2);
+// console.log(2**2);
+
+console.log("1"+2); //output 12 (first string than num so overall treated as string)
+console.log("1"+2+2); //outpur 122 (all treated as string)
+console.log(1+"2")   //output 12
+console.log(1+2+"2") //32 (first num is come so addition is perform)
+
+
+
+console.log(+true);   //1
+console.log(+"");    // 0
+
+
+
+let num1,num2,num3;
+num1 = num2 = num3 = 4 +4 ;
+console.table([num1,num2,num3]);
+ // go and study about increment operator
