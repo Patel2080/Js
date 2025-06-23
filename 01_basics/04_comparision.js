@@ -8,3 +8,5 @@ console.log(null >= 0);     //true      (this  reason is that an equality check 
 console.log(undefined == 0);     //false
 console.log(undefined > 0);     //false
 console.log(undefined < 0);     //false
+
+//=== (use to check datatype and value both)
