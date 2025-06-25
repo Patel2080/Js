@@ -15,3 +15,8 @@ console.log("toLocaleDateString():", date.toLocaleDateString());
 console.log("toLocaleTimeString():", date.toLocaleTimeString());
 const istTime = date.toLocaleString("en-IN", { timeZone: "Asia/Kolkata" });
 console.log("Indian Time:", istTime);
+
+let myTimeStamp=Date.now()
+console.log(myTimeStamp);
+
+console.log(Math.floor(Date.now()/1000));  // print time in second
