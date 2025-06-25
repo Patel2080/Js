@@ -20,3 +20,5 @@ let myTimeStamp=Date.now()
 console.log(myTimeStamp);
 
 console.log(Math.floor(Date.now()/1000));  // print time in second
+
+
