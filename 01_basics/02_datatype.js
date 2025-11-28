@@ -24,3 +24,5 @@ console.log(typeof  null)      // output object
 
 // JS is Dynamically Typed language bcs we do not define the variable type
 
+"use Strict" // it tells engine that all code is treated as new code of js
+// alert(2+3) this syntax is for browser not for node js
